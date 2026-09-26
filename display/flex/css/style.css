@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.mainbox{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.box1{
+    width: 60px;
+    height: 50px;
+    background-color: aquamarine;
+    border: black solid;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
+
+.flexwrap-nowrap{
+    flex-wrap: nowrap;
+}
+
+.flexwrap-wrap{
+    flex-wrap: wrap;
+}
+
+.flexwrap-wrapreverse{
+    flex-wrap: wrap-reverse;
+}
+
+.justifycontent-flexstart{
+    justify-content: flex-start;
+}
+
+.justifycontent-flexend{
+    justify-content: flex-end;
+}
+
+.justifycontent-center{
+    justify-content: center;
+}
+
+.justifycontent-spacearound{
+    justify-content: space-around;
+}
+
+.justifycontent-spaceevenly{
+    justify-content: space-evenly;
+}
+
+.justifycontent-spacebetween{
+    justify-content: space-between;
+}
+
+.aligncontent-flexstart{
+    align-content: flex-start;
+}
+
+.aligncontent-flexend{
+    align-content: flex-end;
+}
+
+.aligncontent-center{
+    align-content: center;
+}
+
+.aligncontent-spacearound{
+    align-content: space-around;
+}
+
+.aligncontent-spaceevenly{
+    align-content: space-evenly;
+}
+
+.aligncontent-spacebetween{
+    align-content: space-between;
+}
+
+.alignitem-flexstart{
+    align-items: flex-start;
+}
+
+.alignitem-flexend{
+    align-items: flex-end;
+}
+
+.alignitem-center{
+    align-items: center;
+}
+
+.alignitem-baseline{
+    align-items: baseline;
+}
+
+.alignitem-strecth{
+    align-items: stretch;
+}
